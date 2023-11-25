@@ -1,0 +1,12 @@
+from matplotlib import pyplot as plt
+
+
+
+x = [1, 3 ,5 ,3]
+y = [4, 7, 2, 4]
+#plt.title("Matplotlib demo") 
+#plt.xlabel("x axis caption") 
+#plt.ylabel("y axis caption") 
+plt.plot(x,y)
+plt.savefig("./plots/test_plot.png")
+#plt.show()
